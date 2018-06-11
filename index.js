@@ -1,7 +1,7 @@
 // 跑完所有 script 後才跑這個 function
 window.onload = function() {
     // 初始化 web3
-    var web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.0.102:8545"));
+    var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
     var contractInstance;
 
     // 事先建好表方便更新票數

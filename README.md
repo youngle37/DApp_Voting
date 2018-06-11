@@ -196,7 +196,7 @@ index.html：
 
 <body class="container">
   <h1>都 2018 了還有人 = = 加空格</h1>
-  <h2 style="color: red;">10.0.0.0:8080</h2>
+  <h2 style="color: red;">localhost:8080</h2>
   <div class="table-responsive">
     <table class="table table-bordered">
       <thead>
@@ -236,7 +236,7 @@ index.js：
 // 跑完所有 script 後才跑這個 function
 window.onload = function() {
     // 初始化 web3
-    var web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.0.102:8545"));
+    var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
     var contractInstance;
 
     // 事先建好表方便更新票數
@@ -285,3 +285,5 @@ and open another terminal
 ```
 $ npm start
 ```
+
+open your browser and type "localhost:8080"
