@@ -176,7 +176,7 @@ var deployedContract = VotingContract.new(
 package.json：
 ```
 "scripts": {
-    "start": "node deployContract.js && http-server .",         # Adding this line in "scripts" part.
+    "start": "node deployContract.js && http-server -c-1 .",         # Adding this line in "scripts" part.
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ```
